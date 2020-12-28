@@ -1,15 +1,10 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
     font-family:'Quicksand', Arial, Helvetica, sans-serif;
     font-size: 20px;
     overflow-x: hidden;
 }
 header {
-    height:100px;
+    height:92px;
     background-color:#000;
     color:#FFF;
 }
@@ -55,20 +50,15 @@ header {
 }
 
 .banner {
-    background-color:#333;
-    height:calc(100vh - 100px);
     background-image: url('../imagens/cidade.jpg');
+    height:80%;
+    width:100%;
     background-size:cover;
     background-position:bottom;
     overflow:hidden;
 }
-.banner .sliders {
-    width:1000vw;
-    height:100%;
-}
 .banner .slide {
-    width:100vw;
-    height:100%;
+    width:100%;
     display:inline-block;
     background-color:rgba(0, 0, 0, 0.6 );
 }
@@ -92,26 +82,17 @@ header {
     text-shadow:0px 0px 10px #000;
 }
 
-
-.default {
-    padding-top:50px;
-    padding-bottom:50px;
-}
 .default .section-title,
 .default .section-desc {
     text-align:center;
     text-transform:uppercase;
     font-weight:600;
 }
+
 .default .section-title {
     font-size: 30px;
 }
-.default .section-desc {
-    font-size:14px;
-    color:#333;
-    margin-top:5px;
-    margin-bottom:40px;
-}
+
 .default .section-desc img {
     width:55px;
     height:55px;
@@ -120,65 +101,84 @@ header {
     align-items:center;
     margin-top:20px;
     margin-left:15px;
-
 }
-.default .section-body {
-    margin:auto;
-    max-width:1140px;
-    min-width: 100px;
-}
-.default.light {
-    background-color:#FFF;
-}
-.default.light .section-title,
-.default.light .section-body {
-    color:#000;
-    
-}
-.default.dark {
-    background-color: #000;
-}
-.default.dark .section-title,
-.default.dark .section-body {
-    color:#FFF;
-}
-
-
-
 
 /* 
 CSS DE ÁREAS ESPECÍFICAS 
 */
-.section-sobre {
-    display:flex;
+.sobre {
+    width:100%;
+    height:80%;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:600;
 }
-.section-sobre-left {
-    flex:1;
+.sobre-pessoal {
+    align-items:center;
+    margin-top:3%;
+    margin-right:5%;
+    background-image:url(../imagens/pessoal.jpg);
+    width:40%;
+    height:70%;
+    border-radius:5px;
+    background-size:cover;
+    background-position:center;
+    display: inline-flex;
 }
-.section-sobre-left p {
-    font-size:17px;
+
+.sobre-profissional {
+    align-items: center;
+    background-image:url(../imagens/profissional.jpeg);
+    width:40%;
+    height:70%;
+    border-radius:5px;
+    background-size:cover;
+    background-position:center;
+    display: inline-flex;
+}
+
+.projetos {
+    width:80%;
+    font-size:22px;
+    padding-left:20%;
     text-align:justify;
-}
-.section-sobre-rigth {
-    width:500px;
-    align-items:flex-end;
-}
-.section-sobre-rigth img {
-    width:500px;
+    margin-bottom:0.5%;
 }
 
+.contato {
+    width:80%;
+    font-size:23px;
+    margin-left: 25%;
+}
 
+.contato img {
+    display: inline-flex;
+    align-items: center;
+    width:5%;
+}
+
+.contato form {
+    font-size:15px;
+    width:30%;
+    padding-left:5%;
+    padding-top:2%;
+    padding-bottom:2%;
+    border-radius:10px;
+    justify-content: center;
+    background-color: #EED;
+
+}
 /*
 CSS FOOTER
 */
 footer {
-    height:75px;
-    background-color:#000;
+    height:30px;
+    background-color: #000;
     color:#FFF;
-    justify-items: flex-end;
 }
-.footer     {
-    font-size:15px;
+
+.footer {
+    font-size:10px;
     text-align:right;
     padding-top:16px;
     padding-right:5px;
