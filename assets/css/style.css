@@ -106,34 +106,41 @@ header {
 CSS DE ÁREAS ESPECÍFICAS 
 */
 .sobre {
-    width:1350px;
+    width:1300px;
     height:502px;
-    text-align:center;
-    text-transform:uppercase;
-    font-weight:600;
 }
 .sobre-pessoal {
     align-items:center;
-    margin-top:3%;
-    margin-right:5%;
+    margin-top:80px;
     background-image:url(../imagens/pessoal.jpg);
-    width:40%;
-    height:70%;
+    width:550px;
+    height:350px;
+    margin-right:10px;
     border-radius:5px;
     background-size:cover;
     background-position:center;
     display: inline-flex;
 }
 
+
 .sobre-profissional {
     align-items: center;
     background-image:url(../imagens/profissional.jpeg);
-    width:40%;
-    height:70%;
+    width:550px;
+    height:350px;
+    margin-left:10px;
     border-radius:5px;
     background-size:cover;
     background-position:center;
     display: inline-flex;
+}
+
+.titulo-modal{
+    width:550px;
+    height:350px;
+    text-align:center;
+    color:#FFF;
+    background-color:rgba(0, 0, 0, 0.6 );
 }
 
 .projetos {

@@ -2,7 +2,7 @@
 require 'environment.php';
 
 $config = array();
-if (ENVIRONMENT == 'development'){
+if (ENVIRONMENT == 'developement'){
         $config['dbname'] = 'matheus';
         $config['host'] = 'localhost';
         $config['dbuser'] = 'root';
