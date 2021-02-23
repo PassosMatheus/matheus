@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Dev Matheus</title>
+        <title>Matheus</title>
 
         <!--- LINKS --->
         <link rel="shortcut icon" href="assets/imagens/logo.png" />
