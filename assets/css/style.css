@@ -139,8 +139,11 @@ CSS DE ÁREAS ESPECÍFICAS
     width:550px;
     height:350px;
     text-align:center;
-    color:#FFF;
     background-color:rgba(0, 0, 0, 0.6 );
+}
+
+.titulo-modal h3 {
+    color:FFF;
 }
 
 .projetos {
