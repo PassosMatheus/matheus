@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
 }
 header {
-    height:92px;
+    height:100px;
     background-color:#000;
     color:#FFF;
 }
@@ -51,14 +51,13 @@ header {
 
 .banner {
     background-image: url('../imagens/cidade.jpg');
-    height:80%;
-    width:100%;
+    height:calc(100vh - 100px);
     background-size:cover;
     background-position:bottom;
     overflow:hidden;
 }
 .banner .slide {
-    width:100%;
+    width:100vh;
     display:inline-block;
     background-color:rgba(0, 0, 0, 0.6 );
 }
