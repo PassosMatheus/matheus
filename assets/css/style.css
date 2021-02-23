@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
 }
 header {
-    height:100px;
+    height:92px;
     background-color:#000;
     color:#FFF;
 }
@@ -51,13 +51,13 @@ header {
 
 .banner {
     background-image: url('../imagens/cidade.jpg');
-    height:calc(100vh - 100px);
+    height:502px;
     background-size:cover;
     background-position:bottom;
     overflow:hidden;
 }
 .banner .slide {
-    width:100vh;
+    width:1400px;
     display:inline-block;
     background-color:rgba(0, 0, 0, 0.6 );
 }
@@ -106,8 +106,8 @@ header {
 CSS DE ÁREAS ESPECÍFICAS 
 */
 .sobre {
-    width:100%;
-    height:80%;
+    width:1350px;
+    height:502px;
     text-align:center;
     text-transform:uppercase;
     font-weight:600;
@@ -137,7 +137,7 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .projetos {
-    width:80%;
+    width:1100px;
     font-size:22px;
     padding-left:20%;
     text-align:justify;
@@ -145,15 +145,18 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .contato {
-    width:80%;
+    width:1400px;
+    height:492px;
     font-size:23px;
-    margin-left: 25%;
+    margin-top:10px;
+    margin-left:460px;
 }
 
 .contato img {
+    margin-left:15px;
     display: inline-flex;
     align-items: center;
-    width:5%;
+    width:70px;
 }
 
 .contato form {
