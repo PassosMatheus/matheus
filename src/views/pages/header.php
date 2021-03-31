@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1"/>
         <title>Matheus</title>
 
         <!--- LINKS --->
@@ -21,6 +22,7 @@
                     <img src="assets/imagens/logo.png"  width="80px" height="80px" >
                 </div>
                 <div class="menu">
+                    <img class="menu-opener" src="assets/imagens/menu.png">
                     <nav>
                         <ul>
                             <li><a href="index.php">Home</a></li>

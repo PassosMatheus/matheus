@@ -18,6 +18,11 @@ header {
 .logo {
     width:100px;
 }
+
+.menu-opener {
+    display:none;
+}
+
 .menu {
     flex:1;
     display:flex;
@@ -51,13 +56,13 @@ header {
 
 .banner {
     background-image: url('../imagens/cidade.jpg');
-    height:502px;
+    height:calc(100vh - 123px);
     background-size:cover;
     background-position:bottom;
     overflow:hidden;
 }
 .banner .slide {
-    width:1400px;
+    width: 1400px;;
     display:inline-block;
     background-color:rgba(0, 0, 0, 0.6 );
 }
@@ -106,8 +111,8 @@ header {
 CSS DE ÁREAS ESPECÍFICAS 
 */
 .sobre {
-    width:1300px;
-    height:502px;
+    width:calc(100vh - 123px);
+    height:500px;
 }
 .sobre-pessoal {
     align-items:center;
@@ -147,7 +152,8 @@ CSS DE ÁREAS ESPECÍFICAS
 }
 
 .projetos {
-    width:1100px;
+    width:1400px;
+    height:calc(100vh - 123px);
     font-size:22px;
     padding-left:20%;
     text-align:justify;
@@ -156,7 +162,7 @@ CSS DE ÁREAS ESPECÍFICAS
 
 .contato {
     width:1400px;
-    height:492px;
+    height:calc(100vh - 132px);
     font-size:23px;
     margin-top:10px;
     margin-left:460px;
@@ -195,3 +201,46 @@ footer {
     padding-top:16px;
     padding-right:5px;
 }
+
+/*
+RESPONSIVIDADE PARA TABLET
+*/
+@media (min-width:450px) and (max-width:800px) {
+    .menu-opener {
+        width:45px;
+        margin-left:550px;
+        display:block;
+    }
+
+    .logo {
+        margin-left:15px;
+    }
+
+   /* nav {
+        position: absolute;
+        z-index:99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width:70vw;
+        height:calc(100vh - 98px);
+        top:90px;
+        right:0;
+    } */
+
+    .menu ul {
+        flex-direction:column;   
+    }
+
+    .menu li a {
+        font-weight:bold;
+        height:80px;
+        font-size:27px;
+        margin-right:30px;
+        border:0px;
+    }
+    
+    .menu .active a {
+        color: #FFF;
+    }
+
+
+} 
